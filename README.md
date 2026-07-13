@@ -68,23 +68,6 @@ To stop it, go back to the terminal and press `Ctrl + C`.
 5. It shows the score, matched skills, missing skills, and a recommendation.
 6. Below that, there's a history table showing every match you've run so far.
 
-## Problems I ran into (and how I fixed them)
-
-**scikit-learn failed to install on Windows**
-This happens because pip tries to build it from source and there's no compiler installed. Fix:
-```
-pip install --only-binary=:all: flask scikit-learn PyPDF2 python-docx
-```
-
-**"No such file or directory: requirements.txt"**
-This just means I was in the wrong folder. `requirements.txt` is inside the `backend` folder, so you need to `cd backend` first.
-
-**Port 5000 already in use**
-Open `app.py`, find this line at the bottom:
-```
-app.run(debug=True, port=5000)
-```
-Change `5000` to something else like `5050`, then open `http://127.0.0.1:5050` instead.
 
 **PDF upload gives empty text**
 This happens if the PDF is a scanned image with no actual text in it. Works fine for normal resumes made in Word or Google Docs.
