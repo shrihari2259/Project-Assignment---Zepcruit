@@ -89,7 +89,7 @@ This happens if the PDF is a scanned image with no actual text in it. Works fine
 - The match history is saved in a file called `history.json` inside the backend folder. If you want to clear it, just delete that file (or use the "Clear History" button on the page).
 - This project uses a fixed list of skills and basic text comparison, not a trained AI model. I kept it this way so the results are easy to explain — you can see exactly why a candidate got the score they did.
 
-## What I'd add if I had more time
+## Future updates
 
 - Compare resumes and JDs by meaning, not just matching words (using sentence embeddings)
 - Use a real database instead of a JSON file for history
