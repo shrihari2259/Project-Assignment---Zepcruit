@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "candidate_name": "hari",
+    "jd_preview": "Job Description \u2013AI/ML Intern\n(Campus Drive)\nAbout the Company\nZepcruit is an AI-powered recruitment...",
+    "match_score": 40,
+    "recommendation": "Low Match",
+    "matched_skills": [
+      "Data Analysis",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Python",
+      "TensorFlow"
+    ],
+    "missing_skills": [
+      "Computer Vision",
+      "Leadership",
+      "Problem Solving",
+      "PyTorch",
+      "Scikit-learn"
+    ],
+    "timestamp": "2026-07-13 17:09:22"
+  },
+  {
+    "id": 2,
+    "candidate_name": "Unnamed Candidate",
+    "jd_preview": "Job Description \u2013AI/ML Intern\n(Campus Drive)\nAbout the Company\nZepcruit is an AI-powered recruitment...",
+    "match_score": 14,
+    "recommendation": "Low Match",
+    "matched_skills": [
+      "Data Analysis",
+      "Python"
+    ],
+    "missing_skills": [
+      "Computer Vision",
+      "Leadership",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Problem Solving",
+      "PyTorch",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "timestamp": "2026-07-13 22:11:14"
+  },
+  {
+    "id": 3,
+    "candidate_name": "hari",
+    "jd_preview": "Job Description \u2013AI/ML Intern\n(Campus Drive)\nAbout the Company\nZepcruit is an AI-powered recruitment...",
+    "match_score": 14,
+    "recommendation": "Low Match",
+    "matched_skills": [
+      "Data Analysis",
+      "Python"
+    ],
+    "missing_skills": [
+      "Computer Vision",
+      "Leadership",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Problem Solving",
+      "PyTorch",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "timestamp": "2026-07-13 22:13:02"
+  },
+  {
+    "id": 4,
+    "candidate_name": "shrihari",
+    "jd_preview": "Job Description \u2013AI/ML Intern\n(Campus Drive)\nAbout the Company\nZepcruit is an AI-powered recruitment...",
+    "match_score": 14,
+    "recommendation": "Low Match",
+    "matched_skills": [
+      "Data Analysis",
+      "Python"
+    ],
+    "missing_skills": [
+      "Computer Vision",
+      "Leadership",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Problem Solving",
+      "PyTorch",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "timestamp": "2026-07-13 22:16:13"
+  },
+  {
+    "id": 5,
+    "candidate_name": "shrihari",
+    "jd_preview": "Job Description \u2013AI/ML Intern\n(Campus Drive)\nAbout the Company\nZepcruit is an AI-powered recruitment...",
+    "match_score": 40,
+    "recommendation": "Low Match",
+    "matched_skills": [
+      "Data Analysis",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Python",
+      "TensorFlow"
+    ],
+    "missing_skills": [
+      "Computer Vision",
+      "Leadership",
+      "Problem Solving",
+      "PyTorch",
+      "Scikit-learn"
+    ],
+    "timestamp": "2026-07-13 22:16:49"
+  },
+  {
+    "id": 6,
+    "candidate_name": "mihika",
+    "jd_preview": "Job Description \u2013AI/ML Intern\n(Campus Drive)\nAbout the Company\nZepcruit is an AI-powered recruitment...",
+    "match_score": 15,
+    "recommendation": "Low Match",
+    "matched_skills": [
+      "Machine Learning",
+      "Python"
+    ],
+    "missing_skills": [
+      "Computer Vision",
+      "Data Analysis",
+      "Leadership",
+      "NumPy",
+      "Pandas",
+      "Problem Solving",
+      "PyTorch",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "timestamp": "2026-07-13 22:17:20"
+  }
+]

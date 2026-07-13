@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Match System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>🎯 Job Match System</h2>
+    <span class="navbar-sub">AI/ML Assignment Project</span>
+  </div>
+
+  <div class="wrapper">
+
+    <p class="intro">Paste a job description and a resume below to check how well they match.</p>
+
+    <div class="container">
+
+      <div class="card">
+        <h3>📄 Job Description</h3>
+        <textarea id="jd-input" rows="10" placeholder="Paste the job description here..."></textarea>
+        <div class="count" id="jd-count">0 characters</div>
+      </div>
+
+      <div class="card">
+        <h3>🧑‍💼 Candidate Resume</h3>
+        <input type="text" id="candidate-name" placeholder="Candidate name (optional)" class="name-input">
+        <textarea id="cv-input" rows="10" placeholder="Paste the resume text here..."></textarea>
+        <div class="count" id="cv-count">0 characters</div>
+        <div class="upload-row">
+          <input type="file" id="cv-file" accept=".txt,.pdf,.docx">
+          <label for="cv-file">Or upload a .txt / .pdf / .docx file</label>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="run-section">
+      <button id="run-btn">🚀 Run the Match</button>
+      <p id="run-error"></p>
+    </div>
+
+    <div id="report" class="card report-card" hidden>
+      <h3>📊 Match Report</h3>
+
+      <div class="score-row">
+        <div class="score-box">
+          <span class="score-num" id="dial-number">0</span><span class="score-percent">%</span>
+          <div class="score-label">Match Score</div>
+        </div>
+        <div class="verdict-box">
+          <span class="verdict-label">Recommendation</span>
+          <h2 id="verdict">-</h2>
+        </div>
+      </div>
+
+      <div class="breakdown">
+        <div class="breakdown-item">
+          <span>Skill Coverage</span>
+          <div class="bar-bg"><div class="bar bar-blue" id="bar-skill"></div></div>
+          <span id="val-skill">0%</span>
+        </div>
+        <div class="breakdown-item">
+          <span>Text Similarity</span>
+          <div class="bar-bg"><div class="bar bar-purple" id="bar-text"></div></div>
+          <span id="val-text">0%</span>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h4>✅ Matched Skills <span class="badge-count" id="matched-count">0</span></h4>
+          <div id="matched-skills"></div>
+        </div>
+        <div class="skill-block">
+          <h4>❌ Missing Skills <span class="badge-count" id="missing-count">0</span></h4>
+          <div id="missing-skills"></div>
+        </div>
+        <div class="skill-block">
+          <h4>➕ Extra Skills <span class="badge-count" id="extra-count">0</span></h4>
+          <div id="extra-skills"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card history-card">
+      <div class="history-head">
+        <h3>🕘 Match History</h3>
+        <button id="clear-history-btn">Clear History</button>
+      </div>
+      <table id="history-table">
+        <thead>
+          <tr>
+            <th>Candidate</th>
+            <th>Score</th>
+            <th>Recommendation</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="history-body">
+        </tbody>
+      </table>
+      <p class="empty-note" id="history-empty">No matches run yet.</p>
+    </div>
+
+  </div>
+
+  <footer>Made as part of an AI/ML hiring assignment · Python + Flask + JS</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
