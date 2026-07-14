@@ -1,15 +1,3 @@
-"""
-history_store.py
------------------
-Very small JSON-file "database" that remembers every match that has been run,
-so recruiters can look back and see which candidate matched which JD, and
-with what score.
-
-Kept intentionally simple (no SQLite/Postgres) to match the size of this
-assignment. In a real system this would be a proper database table - see the
-README "Tips to Improve" section for that upgrade path.
-"""
-
 import json
 import os
 from datetime import datetime
